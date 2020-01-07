@@ -1,3 +1,19 @@
+Git操作：
+    git全局设置
+    git config --global user.name "xxx"
+    git config --global user.email "xxx"
+    创建git仓库
+    1)进入项目根目录
+    git init
+    2)添加到本地仓库
+    git add .
+    git commit -m "xxxx" 提交信息
+    3)从远程获取最新版本并merge到本地
+    git pull origin master
+    提交本地分支到远程分支
+    git remote add origin https://..git服务器上创建一个仓库
+    git push -u origin master #"-u"指令记住仓库
+
 ls：list(列出目录内容)
 
 cd：Change Directory（改变目录）
