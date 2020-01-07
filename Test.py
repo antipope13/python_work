@@ -1,1 +1,2 @@
-print('Hello,World!\n你好，世界！')
+name = "ada lovelace"
+print(name.title())#.title()实现首字母大写
